@@ -2,18 +2,23 @@
   "name": "uber_clone",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "export PORT=3111 && next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "export PORT=3111 && next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "mapbox-gl": "^2.6.1",
     "next": "12.0.9",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "tailwind-styled-components": "^2.1.2"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.2",
     "eslint": "8.7.0",
-    "eslint-config-next": "12.0.9"
+    "eslint-config-next": "12.0.9",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.17"
   }
 }

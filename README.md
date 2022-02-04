@@ -1,3 +1,6 @@
+[Uber Clone with Next JS, React JS, Tailwind CSS and Firebase]
+(https://www.youtube.com/watch?v=_VuGmykVgTg&list=PL-J2q3Ga50oPfIUatXywKD2Rpu0uSPYCc&index=3)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
